@@ -5,41 +5,25 @@
 - title: "Research"
   url: "/research/"
   side: left
+  dropdown:
+  - title: "Glacial Hydrology and Landscape Evolution"
+    url: "/research/glacial-hydrology-and-landscape-evolution"
+  - title: "Dust Provenance and Transport Mechanisms in High Mountains of Himalayas"
+    url: "/research/dust-provenance-and-transport-mechanisms-in-high-mountains-of-himalayas"
+  - title: "Large River Systems"
+    url: "/research/large-river-systems"
 
 - title: "People"
   url: "/people/"
   side: left
-  dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
 
 - title: Publications
   url: "/publications/"
   side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
 
 - title: Facilities
   url: "/facilities/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
 
 - title: Teaching
   url: "/teaching/"
@@ -54,5 +38,5 @@
   side: right
 
 - title: "Contact"
-  url: "/contact/"
+  url: "/#contact"
   side: right

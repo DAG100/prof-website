@@ -41,7 +41,7 @@ widget6:
 
 #Contact, I reused the widgets here for convenience
 widget7:
-  title: 'Principal Researcher'
+  title: 'Principal Investigator'
   text: |
     Dr. Indra Sekhar Sen
     <br />
@@ -120,7 +120,7 @@ But a Necessity for Everyone!
 {% endif %}
 
 {% if page.widget7.image or page.widget7.video or page.widget7.title or page.widget8.image or page.widget8.video or page.widget8.title %}
-<div id="#contact" class="row t60 l15 r15">
+<div id="contact" class="row t60 l15 r15">
   <h1 style="text-align:center">Contact Us</h1>
   {% if page.widget7.image or page.widget7.video or page.widget7.title %}
     {% include _frontpage-widget.html widget=page.widget7 %}

@@ -1,0 +1,7 @@
+<div style="margin:auto;width:min({{include.size | times: 2}}px,100%)">
+    <div style="object-fit:contain;width:{{include.size}}px;height:{{include.size}}px;border-radius:{{include.size}}px;margin:auto;">
+        <img src="{{site.urlimg}}{{include.img}}" alt="{{include.alt}}" style="object-fit:cover;width:100%;height:100%;border-radius:100%;" />
+    </div>
+    <h3 style="margin-top:10px;text-align:center;">{{include.name}}</h3>
+    <p style="text-align:center;">{{include.data}}</p>
+</div>
