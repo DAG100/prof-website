@@ -3,7 +3,7 @@ layout: page
 header:
  image_fullwidth: "bg4.jpeg"
  title: "Teaching"
-permalink: /teaching
+permalink: /teaching/
 ---
 
 Some courses that I teach regularly in IIT Kanpur include:

@@ -8,7 +8,7 @@ video:
   embedURL: "https://www.youtube.com/embed/6EZhK2qrwRc"
   contentURL: "https://www.youtube.com/watch?v=6EZhK2qrwRc"
   thumbnailUrl: "http://img.youtube.com/vi/6EZhK2qrwRc/maxresdefault.jpg"
-permalink: /facilities
+permalink: /facilities/
 ---
 
 <img src="{{site.urlimg}}gallery.jpg" alt="Lab Facilities"/>

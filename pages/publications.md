@@ -3,7 +3,7 @@ layout: page
 header:
  image_fullwidth: "bg4.jpeg"
  title: "Publications"
-permalink: /publications
+permalink: /publications/
 ---
 # Currently under review
  - (33) Shukla, T., Sen, I.S., Sundriyal, S. Sulfide Oxidation Coupled to Carbonate Dissolution Controls CO2 Emissions from Emerging Himalayan Glacial Lakes; (2022), submitted

@@ -3,7 +3,7 @@ layout: page
 header:
   image_fullwidth: "bg4.jpeg"
   title: "People"
-permalink: /people
+permalink: /people/
 ---
 <div style="display:flex;flex-direction:column;align-items:center;" markdown="1">
 ## Principal Investigator
