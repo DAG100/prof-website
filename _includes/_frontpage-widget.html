@@ -22,8 +22,8 @@
 			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
 		</a>
 	{% endif %}
-	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
+	<h2 class="font-size-h3 t10" style="text-align:center">{{ include.widget.title }}</h2>
 
 	{% if include.widget.text != empty %}<p>{{ include.widget.text }}</p>{% endif %}
-	{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a></p>{% endif %}
+	{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}" style="margin:auto;display:block;width:fit-content;">{% if include.widget.buttontext == NULL %}{{site.data.language.more }}{% else %}{{ include.widget.buttontext}}{% endif %}</a></p>{% endif %}
 </div>

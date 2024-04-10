@@ -1,0 +1,53 @@
+Sitemap
+
+Index
+	People
+	Research
+	Publications
+	Facilities
+	Teachings
+
+Document:
+Index
+	People
+	Research
+	Publications
+	Facilities
+	Teachings
+	Recognition
+
+Index:
+	Tagline
+	Stats in circles
+	Contact address/Academic Identity (Scholar IDs)
+
+People:
+	Principal Investigator
+	Staff Members
+	Post-Doc Assoc
+	PhD Scholars
+	Lab Alumni
+	Former Students
+
+Research:
+	Environmental Research Sections:
+		"Climate Change and the Himalayas"
+		"Isotope hydrology"
+	Translational Research
+	Layout: tabs?
+
+Publications
+	Try to match IRIN, but otherwise use doc sections (a big list, again maybe use tabs at the top?)
+
+Facilities
+	Embed a video at top
+	Lab pictures, tab these/have a gallery section
+	Short desc
+
+Teaching
+	List of courses and descs
+
+Recognition
+	Awards gallery
+	Invited talks
+	Timeline of awards -> embedded pics?

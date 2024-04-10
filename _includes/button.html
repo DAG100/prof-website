@@ -1,0 +1,1 @@
+<a href="{% if include.url contains "http://" or include.url contains "https://" %}{{ include.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.url }}{% endif %}" {% if include.newtab != NULL %}target="_blank"{% endif %} ><button style="background-color:{{include.color}};color:{{include.text_color}};{{ include.style }}">{{ include.text}}</button></a>
