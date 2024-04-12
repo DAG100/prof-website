@@ -21,11 +21,14 @@
 {% elsif page.header.title %}
 
 <div id="masthead-with-text" style="{% if page.header.background-color %}background: {{ page.header.background-color }};{% endif %} {% if page.header.image_fullwidth %}{% elsif page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'){% endif %}">
-	<div class="row" style="margin-left:0">
-		<div class="small-12 columns">
-			<div class="masthead-title">{{ page.header.title }}</div>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
+    <div style="position:absolute;left:0;bottom:0;width:100%">
+        <div class="row" style="margin-left:10px;">
+            <div class="small-12 columns">
+                <div class="masthead-title">{{ page.header.title }}</div>
+            </div><!-- /.small-12.columns -->
+        </div><!-- /.row -->
+        <div class="masthead-subtitle">{{ page.header.subtitle }}</div>
+	</div>
 </div><!-- /#masthead -->
 
 {% if page.breadcrumb == true %}

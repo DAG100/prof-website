@@ -159,6 +159,12 @@ figcaption a:hover,
     text-align: right;
 }
 
+.masthead-subtitle {
+    font-size: rem-calc(35);
+    background: rgba($grey-16, 0.5);
+    width:100%;
+    padding-left: 10px;
+}
 
 
 /* Tables

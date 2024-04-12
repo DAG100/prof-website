@@ -8,7 +8,8 @@ layout: frontpage
 header:
   image_fullwidth: "bg4.jpeg"
   title: "Environmental And Low Temperature Geochemistry Lab"
-  caption: "We study fluid-mediated surficial processes with isotopic precision"
+  subtitle: "Studying fluid-mediated surficial processes with isotopic precision"
+  caption: ""
 widget1:
   title: 'Publications'
   url: '/publications/'
@@ -81,10 +82,7 @@ widget8:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: /research/
-  text: LEARN MORE
-  style: alert
+
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
@@ -101,6 +99,8 @@ But a Necessity for Everyone!
 <p>Welcome to the Home of Environmental & Low-Temperature Geochemistry Research Group at Indian Institute of Technology Kanpur led by Indra S. Sen. Our research is aimed at understanding the chemical interactions between Earth's surface environment. We mainly focus on the impact of anthropogenic and natural processes on the chemistry of freshwater and biogeochemical element cycling. A process-level understanding is achieved using various stable, radiogenic, and non-traditional isotopes.</p>
 <p>We are always looking for motivated Postdocs, Ph.D., M.Tech. and Research Scholars! If you are interested, please contact Dr. Indra S. Sen.</p>
 </div>
+
+{% include button.html url="/research" text="Learn more" color="#d55" %}
 
 {% if page.widget4.image or page.widget4.video or page.widget4.title or page.widget5.image or page.widget5.video or page.widget5.title or page.widget6.image or page.widget6.video or page.widget6.title %}
 <div class="row t60 l15 r15">
