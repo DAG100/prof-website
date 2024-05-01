@@ -7,7 +7,7 @@
 layout: frontpage
 header:
   image_fullwidth: "bg4.jpeg"
-  title: "Environmental And Low Temperature Geochemistry Lab"
+  title: "The Environmental And Low Temperature Geochemistry Lab"
   subtitle: "Studying fluid-mediated surficial processes with isotopic precision"
   caption: ""
 widget1:
