@@ -32,6 +32,10 @@ format: frontpage
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
+
+{% comment %}
+Removed, put into index directly because I wanted to rearrange content
+
 {% if page.widget1.image or page.widget1.video or page.widget1.title or page.widget2.image or page.widget2.video or page.widget2.title or page.widget3.image or page.widget3.video or page.widget3.title %}
 <div class="row t60">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
@@ -52,6 +56,7 @@ format: frontpage
 
 {% endif %}
 
+{% endcomment %}
 
 {% comment %}
 *

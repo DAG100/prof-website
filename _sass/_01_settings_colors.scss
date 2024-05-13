@@ -33,6 +33,7 @@ $ci-4               : #E27A3F; // orange
 $ci-5               : #DF4949; // red
 $ci-6               : #A1D044; // green
 $ci-7               : #054589; //deep blue
+$ci-8               : #00000000; //transparent
 
 
 
@@ -73,8 +74,9 @@ $grey-16            : #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color    : $ci-7;
+$topbar-bg-color    : $ci-8;
 $topbar-bg          : $topbar-bg-color;
+$topbar-bg-opaque   : $ci-7;
 
 
 $topbar-dropdown-toggle-color: #fff;
@@ -92,9 +94,9 @@ $topbar-link-bg-hover: $ci-2;
 $topbar-link-bg-active-hover: $ci-2;
 
 
-$topbar-dropdown-bg: $ci-7; // Background Mobile Navigation
+$topbar-dropdown-bg: $ci-8; // Background Mobile Navigation
 $topbar-dropdown-link-color: #fff;
-$topbar-dropdown-link-bg: $ci-7;
+$topbar-dropdown-link-bg: $ci-8;
 
 $topbar-menu-link-color-toggled: $ci-1;
 $topbar-menu-icon-color-toggled: $ci-1;

@@ -102,6 +102,39 @@ But a Necessity for Everyone!
 
 {% include button.html url="/research" text="Learn more" color="#d55" %}
 
+{% if page.widget1.image or page.widget1.video or page.widget1.title or page.widget2.image or page.widget2.video or page.widget2.title or page.widget3.image or page.widget3.video or page.widget3.title %}
+<div class="row t60">
+	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
+		{% include _frontpage-widget.html widget=page.widget1 %}
+	{% endif %}
+
+	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
+		{% include _frontpage-widget.html widget=page.widget2 %}
+	{% endif %}
+
+	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
+		{% include _frontpage-widget.html widget=page.widget3 %}
+	{% endif %}
+	
+	
+	
+</div><!-- /.row -->
+
+{% endif %}
+
+{% if page.widget7.image or page.widget7.video or page.widget7.title or page.widget8.image or page.widget8.video or page.widget8.title %}
+<div id="contact" class="row t60 l15 r15">
+  <h1 style="text-align:center">Contact Us</h1>
+  {% if page.widget7.image or page.widget7.video or page.widget7.title %}
+    {% include _frontpage-widget.html widget=page.widget7 %}
+  {% endif %}
+
+  {% if page.widget8.image or page.widget8.video or page.widget8.title %}
+    {% include _frontpage-widget.html widget=page.widget8 %}
+  {% endif %}
+</div><!-- /.row -->
+{% endif %}
+
 {% if page.widget4.image or page.widget4.video or page.widget4.title or page.widget5.image or page.widget5.video or page.widget5.title or page.widget6.image or page.widget6.video or page.widget6.title %}
 <div class="row t60 l15 r15">
     <h1 style="text-align:center">Academic Identity</h1>
@@ -116,18 +149,5 @@ But a Necessity for Everyone!
     {% if page.widget6.image or page.widget6.video or page.widget6.title %}
         {% include _frontpage-widget.html widget=page.widget6 %}
     {% endif %}
-</div><!-- /.row -->
-{% endif %}
-
-{% if page.widget7.image or page.widget7.video or page.widget7.title or page.widget8.image or page.widget8.video or page.widget8.title %}
-<div id="contact" class="row t60 l15 r15">
-  <h1 style="text-align:center">Contact Us</h1>
-  {% if page.widget7.image or page.widget7.video or page.widget7.title %}
-    {% include _frontpage-widget.html widget=page.widget7 %}
-  {% endif %}
-
-  {% if page.widget8.image or page.widget8.video or page.widget8.title %}
-    {% include _frontpage-widget.html widget=page.widget8 %}
-  {% endif %}
 </div><!-- /.row -->
 {% endif %}

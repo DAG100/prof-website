@@ -125,7 +125,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
     }
 
     // Wrapped around .top-bar to make it stick to the top
-    .fixed {
+    .sticky {
       width: 100%;
       #{$default-float}: 0;
       position: fixed;
@@ -151,6 +151,10 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
       }
     }
+    
+    .fixed .top-bar,.dropdown {
+        background: $topbar-bg-opaque !important;
+    }
 
     .top-bar {
       overflow: hidden;
@@ -159,6 +163,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       position: relative;
       background: $topbar-bg;
       margin-bottom: $topbar-margin-bottom;
+      transition: background 0.2s linear;
 
       // Topbar Global list Styles
       ul {
@@ -284,7 +289,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       // Change things up when the top-bar is expanded
       &.expanded {
         height: auto;
-        background: transparent;
+        background: $topbar-bg;
 
         .title-area {
           background: $topbar-bg;
@@ -669,7 +674,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         .dropdown {
           #{$default-float}: 0;
           top: auto;
-          background: transparent;
+          background: $topbar-bg;
           min-width: 100%;
 
           li {

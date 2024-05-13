@@ -2101,10 +2101,16 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           self.settings.sticky_class = settings.sticky_class;
           self.settings.sticky_topbar = topbar;
           topbar.data('height', topbarContainer.outerHeight());
-          topbar.data('stickyoffset', topbarContainer.offset().top);
+          // topbar.data('stickyoffset', topbarContainer.offset().top);
         } else {
           topbar.data('height', topbar.outerHeight());
         }
+        // topbar.data('stickyoffset', topbar.attr("data-scrolldist"));
+        let masthead = document.getElementById("masthead");
+        if (masthead === null) masthead = document.getElementById("masthead-with-text");
+        if (masthead !== null)
+                topbar.data('stickyoffset', 50);
+        else topbar.data('stickyoffset', 0);
 
         if (!settings.assembled) {
           self.assemble(topbar);
@@ -2117,7 +2123,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         }
 
         // Pad body when sticky (scrolled) or fixed.
-        self.add_custom_rule('.f-topbar-fixed { padding-top: ' + topbar.data('height') + 'px }');
+        // self.add_custom_rule('.f-topbar-fixed { padding-top: ' + topbar.data('height') + 'px }');
 
         if (topbarContainer.hasClass('fixed')) {
           self.S('body').addClass('f-topbar-fixed');
@@ -2386,11 +2392,11 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
               stickyOffset -= topbar.data('height');
             }
 
-            topbar.data('stickyoffset', stickyOffset);
+            // topbar.data('stickyoffset', stickyOffset);
             stickyContainer.addClass('fixed');
           } else {
             stickyOffset = stickyContainer.offset().top;
-            topbar.data('stickyoffset', stickyOffset);
+            // topbar.data('stickyoffset', stickyOffset);
           }
         }
 
@@ -2479,20 +2485,27 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
     },
 
     update_sticky_positioning: function() {
+        // console.log("called");
       var klass = '.' + this.settings.sticky_class,
           $window = this.S(window),
           self = this;
-
       if (self.settings.sticky_topbar && self.is_sticky(this.settings.sticky_topbar,this.settings.sticky_topbar.parent(), this.settings)) {
         var distance = this.settings.sticky_topbar.data('stickyoffset');
+        // console.log("distance", distance);
+//         console.log("window scroll", $window.scrollTop());
         if (!self.S(klass).hasClass('expanded')) {
+        // console.log(this.settings);
+                // console.log(distance);
+//                 console.log($window.scrollTop());
           if ($window.scrollTop() > (distance)) {
+                // console.log("add fixed");
             if (!self.S(klass).hasClass('fixed')) {
               self.S(klass).addClass('fixed');
               self.S('body').addClass('f-topbar-fixed');
             }
           } else if ($window.scrollTop() <= distance) {
             if (self.S(klass).hasClass('fixed')) {
+                // console.log("remove fixed");
               self.S(klass).removeClass('fixed');
               self.S('body').removeClass('f-topbar-fixed');
             }
