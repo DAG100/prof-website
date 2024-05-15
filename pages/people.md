@@ -29,31 +29,14 @@ data="" %}
 ## Post-Doctoral Associates
 
 <div class="row" style="width:min(130%,90vw)">
-<div class="large-4 small-4 columns">
+<div class="large-12 small-12 columns">
 {% include profile.html
-img="Neelavannan.jpg"
-alt="Dr. Neelavannan K."
+img="RichaChaturvedi.jpg"
+alt="Dr. Richa Chaturvedi"
 size="220"
-name="Dr. Neelavannan K."
-data="Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter"
-%}
-</div>
-<div class="large-4 small-4 columns">
-{% include profile.html
-img="TanujShukla.jpg"
-alt="Dr. Tanuj Shukla"
-size="220"
-name="Dr. Tanuj Shukla"
-data="Ph.D. 2018; Wadia Institute of Himalayan Geology, Glaciology, Hydro-geochemistry and Glacial-Climate linkages"
-%}
-</div>
-<div class="large-4 small-4 columns">
-{% include profile.html
-img="SarwarNizam.jpg"
-alt="Dr. Sarwar Nizam"
-size="220"
-name="Dr. Sarwar Nizam"
-data="Ph.D. 2021; IIT Kanpur, Himalayan Cryosphere"
+name="Dr. Richa Chaturvedi"
+data="Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter<br />
+<a href='https://scholar.google.com/citations?user=KgPlHD0AAAAJ&hl=en'>Google Scholar</a>"
 %}
 </div>
 </div>
@@ -61,79 +44,30 @@ data="Ph.D. 2021; IIT Kanpur, Himalayan Cryosphere"
 ## Ph.D Scholars
 
 <div class="row" style="width:min(130%,90vw)">
-<div class="large-4 small-4 columns">
-{% include profile.html
-img="NitaRoy.jpg"
-alt="Nita Roy"
-size="220"
-name="Nita Roy"
-data="M.Sc. 2018; Jadavpur University, Glacier meltwater geochemistry"
-%}
-</div>
-<div class="large-4 small-4 columns">
-{% include profile.html
-img="Shaifullah.JPG"
-alt="Shaifullah"
-size="220"
-name="Shaifullah"
-data="M.Sc. 2017; Delhi University, Glacier River Intraction"
-%}
-</div>
-<div class="large-4 small-4 columns">
-{% include profile.html
-img="anikendra.jpeg"
-alt="Anikendra Das"
-size="220"
-name="Anikendra Das"
-data="M.Sc. 2021; Jadavpur University, Permafrost Carbon in the Himalayas, Carbon Cycle"
-%}
-</div>
-</div>
-
-<div class="row" style="width:min(130%,90vw)">
 <div class="large-6 small-6 columns">
 {% include profile.html
-img="Subham.jpeg"
+img="SamyakPradhan.jpg"
+alt="Samyak Pradhan"
+size="220"
+name="Samyak Pradhan"
+data="[please provide details]"
+%}
+</div>
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="SubhamDutta.jpg"
 alt="Subham Dutta"
 size="220"
 name="Subham Dutta"
-data="M. Tech. 2021, IIT Kanpur, Isotope Geochemistry, Geochemical Cycles"
-%}
-</div>
-<div class="large-6 small-6 columns">
-{% include profile.html
-img="samayak.jpeg"
-alt="Samayak Pradhan"
-size="220"
-name="Samayak Pradhan"
-data="M. Sc. 2021; Delhi University, Metamorphic CO2 Degassing, Carbon Cycling"
+data="[please provide details]"
 %}
 </div>
 </div>
 
-## MTech. Students
-
-{% include profile.html
-img="Anjan.jpg"
-alt="Anjan Halder"
-size="220"
-name="Anjan Halder"
-data="M. Sc. 2019; Presidency College, River Geochemistry, Weathering Climate Linkage"
-%}
-
-## Lab Members
+## Staff Members
 
 <div class="row" style="width:min(130%,90vw)">
-<div class="large-4 small-4 columns">
-{% include profile.html
-img="akshay.jpeg"
-alt="Akshay Kumar"
-size="220"
-name="Akshay Kumar"
-data="Lab Technician"
-%}
-</div>
-<div class="large-4 small-4 columns">
+<div class="large-6 small-6 columns">
 {% include profile.html
 img="deepu.png"
 alt="Deepu Sharma"
@@ -142,7 +76,7 @@ name="Deepu Sharma"
 data="Lab Assistant"
 %}
 </div>
-<div class="large-4 small-4 columns">
+<div class="large-6 small-6 columns">
 {% include profile.html
 img="aditya.png"
 alt="Aditya Tripathi"
@@ -155,24 +89,112 @@ data="Lab Manager"
 
 ## Former Lab Members
 
- - Soumita Boral (Former PhD Student, now Post-doc at IPGP, Paris)
+### Post-Doctoral Associates
 
- - Arijeet Mitra (Former PhD student, now Post-doc at IISc, Bangalore)
+<div class="row" style="width:min(130%,90vw)">
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="Neelavannan.jpg"
+alt="Dr. Neelavannan K."
+size="220"
+name="Dr. Neelavannan K."
+data="Postdoctoral Research Fellow, KAUST, Saudi Arabia<br />Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter<br />Member 2021-2023"
+%}
+</div>
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="TanujShukla.jpg"
+alt="Dr. Tanuj Shukla"
+size="220"
+name="Dr. Tanuj Shukla"
+data="Associate Professor Research, Northwest Institute of Eco-Environment and Resources, Chinese Academy of Science, Lanzhou, China<br />Ph.D. 2018; Wadia Institute of Himalayan Geology, Glaciology, Hydro-geochemistry and Glacial-Climate linkages<br />Member 2019-2022"
+%}
+</div>
+</div>
+<div class="row" style="width:min(130%,90vw)">
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="MayuriPandey.jpg"
+alt="Dr. Mayuri Pandey"
+size="220"
+name="Dr. Mayuri Pandey"
+data="Assistant Professor in Banaras Hindu University, India<br />Member 2012-2017"
+%}
+</div>
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="JuzerShaik.jpg"
+alt="Dr. Juzer Shaik"
+size="220"
+name="Dr. Juzer Shaik"
+data="Postdoctoral Fellow, University of Minnesota, USA<br />Member 2022-2023"
+%}
+</div>
+</div>
 
- - Sarwar Nizam (Former PhD student, now post-doc at IIT Kanpur)
+### Ph.D Scholars
 
- - Deep Sengupta (Former Project Associate, now Post-doc at Berkeley)
+<div class="row" style="width:min(130%,90vw)">
+<div class="large-4 small-4 columns">
+{% include profile.html
+img="NitaRoy.jpg"
+alt="Nita Roy"
+size="220"
+name="Dr. Nita Roy"
+data="Dissertation “Understanding monsoon controls on glacier melting, chemical weathering, and carbon cycle in the Himalayas”<br />Postdoctoral Fellow with Prof. Christoff Andermann, University Rennes, CNRS, Géosciences Rennes, France<br />M.Sc. 2018; Jadavpur University, Glacier meltwater geochemistry<br />Member 2018-2024"
+%}
+</div>
+<div class="large-4 small-4 columns">
+{% include profile.html
+img="Shaifullah.JPG"
+alt="Dr. Shaifullah"
+size="220"
+name="Dr. Shaifullah"
+data="Dissertation “A High-resolution Time Series River Chemistry Data from the Upper Ganga Basin: Temporal dynamics of Hydrogeochemical Processes”<br />M.Sc. 2017; Delhi University, Glacier River Intraction<br />Member 2017-2024"
+%}
+</div>
+<div class="large-4 small-4 columns">
+{% include profile.html
+img="SoumitaBoral.jpg"
+alt="Dr. Soumita Boral"
+size="220"
+name="Dr. Soumita Boral"
+data="Dissertation “Isotopes and geochemical modelling to trace water sources and chemical dynamics of Himalayan Rivers from source to sink”<br />DST INSPIRE Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Sciences, Bengaluru, India<br />Member 2015-2021"
+%}
+</div>
+</div>
+<div class="row" style="width:min(130%,90vw)">
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="ArijeetMitra.jpg"
+alt="Dr. Arijeet Mitra"
+size="220"
+name="Dr. Arijeet Mitra"
+data="Dissertation “Tracing the cycling of PGE and Pb isotopes through the Earth's surface”<br />DST INSPIRE Faculty, Postdoctoral Research Scientist in the Novel Isotopes in Climate, Environment and Rocks (NICER Lab), Columbia University, USA<br />Member 2015-2021"
+%}
+</div>
+<div class="large-6 small-6 columns">
+{% include profile.html
+img="SarwarNizam.jpg"
+alt="Dr. Sarwar Nizam"
+size="220"
+name="Dr. Sarwar Nizam"
+data="Dissertation “Surface impurities in the Himalayan glaciers: Its sources, pathways, and spatial variation”<br />International Climate Protection Fellow, Humboldt Foundation, GFZ German Research Centre for Geosciences<br />Ph.D. 2021; IIT Kanpur, Himalayan Cryosphere<br />Member 2016-2021"
+%}
+</div>
+</div>
 
- - Nikita Agrawal (Former Project Associate, now at Shell, India)
+### MTech. Students
 
- - Sudhakar Ranjan (Former M. Tech. student, now at Geological Society of India)
-
- - Gayatri Mishra (Former M. Tech. student,now PhD student at University of Caifornia, Riverside)
-
- - Mayuri Pandey (Former Post-doc, now Assistant Professor at Banaras Hindu University)
-
- - Sarthak Ghosh (Former M. Tech Student, now at Geological Survey of India)
-
- - Nikitasha Chatterjee (Former M.Tech student, now PhD student at IIT Kharagpur)
+- 2020-2022: Mr. Anjan Halder, Spatio-temporal variability of silicate weathering and associated CO2       consumption in the Upper Ganga Basin
+- 2019-2021: Mr. Tirthabasa Acharya, Occurrence, Source, and Spatial Distribution of Nitrate in Groundwaters of Ganga Basin
+- 2019-2021: Mr. Subham Dutta, Geogenic Controls on the High Levels of Uranium in Alluvial Aquifers of the Ganga Basin
+- 2018-2021: Ms. Ayushi Ram, Variations of major and trace elements along Ramganga basin in space    and time
+- 2018-2020:  Mr. Haribansh Singh, Feasibility study of lead isotope analysis using ICP-QQQ MS/MS reaction cell
+- 2016-2019: Ms. Nikitasha Chatterjee, Dissolved nutrients (nitrate, nitrite, phosphate and silicate) concentrations of the Ganga basin in space and time
+- 2016-2018: Mr. Sarthak Ghosh, Lead isotopic fingerprinting of aerosols to characterize the sources of atmospheric lead in Woods Hole, USA
+- 2015-2017: Ms. Gayatri Mishra, Major and trace element inputs to the Ganga River: Significance of small flood plain tributary as non-point pollution source
+- 2014-2016: Mr. Sudhakar Ranjan, Nutrient fluxes from small floodplain rivers to large river systems: A case study in the Pandu River Basin
+- 2014-2016: Mr. Sarwar Nizam, Effect of Southwest Monsoon withdrawal on airborne particles over the Indo-Gangetic Basin: Aerosol loading and heavy metal concentrations
 
 </div>
