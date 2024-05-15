@@ -6,12 +6,12 @@
   url: "/research/"
   side: left
   dropdown:
-  - title: "Glacial Hydrology and Landscape Evolution"
-    url: "/research/glacial-hydrology-and-landscape-evolution"
-  - title: "Dust Provenance and Transport Mechanisms in High Mountains of Himalayas"
-    url: "/research/dust-provenance-and-transport-mechanisms-in-high-mountains-of-himalayas"
-  - title: "Large River Systems"
-    url: "/research/large-river-systems"
+  - title: "Environmental Research: The Himalayas and Climate Change"
+    url: "/research/environmental-research-the-himalayas-and-climate-change"
+  - title: "Environmental Research: Isotope Hydrology"
+    url: "/research/environmental-research-isotope-hydrology"
+  - title: "Translational Research"
+    url: "/research/translational-research"
 
 - title: "People"
   url: "/people/"

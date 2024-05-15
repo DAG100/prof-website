@@ -9,20 +9,20 @@ layout: page
 
 Our research focuses on three main fields. Click on the links below to explore more about each field.
 
-## Glacial Hydrology and Landscape Evolution 
+## Environmental Research: The Himalayas and Climate Change
 
-We use various geochemical tracers to quantitatively constraint the sources of water in headwaters of the Himalayan Rivers. Our group is trying to improve existing and build new multi-component isotope and geochemical mixing models that could quantify the relative contributions of rainwater, glacial melt, snowmelt, and groundwater flow to the total discharge. We further focus on various types of chemical weathering reactions operating on the glacial catchment to understand the links between the atmospheric carbon dioxide (CO2) concentrations, glacial weathering, and the global carbon cycle. 
+We use long-lived radiogenic and stable isotopes to trace fluid-mediated surficial processes in the Himalayas. We focus on glacier-fed headwater streams, glacial impurities, water end-member source contributions to total river discharge, and water-rock interactions in the glacierized in Himalayan catchment. We try to address fundamental questions such as sources, pathways, and control mechanisms of surface water ionic compositions. These endeavors collectively aim to illuminate the profound impact of climate change on the delicate Himalayan ecosystem.
 
-{% include button.html url="/research/glacial-hydrology-and-landscape-evolution" text="Read More" color="#9db2ce" %}
+{% include button.html url="/research/environmental-research-the-himalayas-and-climate-change" text="Read More" color="#9db2ce" %}
 
-## Dust Provenance and Transport Mechanisms in High Mountains of Himalayas
+## Environmental Research: Isotope Hydrology
 
-Our group has recently (2015) installed PM10, PM2.5, and PM1 (particles less than 10, 205, and 1 μm in diameter) aerosol samplers at several locations including Kanpur, Harsil (remote village in Himalaya at 2500 m elevation) and Leh (Ladhak region) to understand the long distance transport and source of airborne particles in the Indo-Gangetic plains. We are using radioactive isotopes (Rb-Sr, Sm-Nd, U-Th-Pb, Re-Os) and trace element geochemistry in airborne particulate matters to understand their sources and pathways. The overarching goal is to combine aerosol geochemistry and atmospheric models to better understand atmospheric processes. 
+We study the influence of climate change, land-use land cover, and other disruptions on large rivers and groundwater resources. We try to address fundamental questions such as concentration-discharge relationships, chemical fluxes from land to ocean, sources, pathways, and controlling factors of dissolved constituents in rivers and groundwater using isotopic tracers.
 
-{% include button.html url="/research/dust-provenance-and-transport-mechanisms-in-high-mountains-of-himalayas" text="Read More" color="#9db2ce" %}
+{% include button.html url="/research/environmental-research-isotope-hydrology" text="Read More" color="#9db2ce" %}
 
-## Large River Systems
+## Translational Research
 
-We work on large river systems to better understand land-to-ocean connections, chemical evolution of dissolved and particulate load from source to sink, and groundwater-river water interactions. Presently all our research activities are focused in the Ganga and Mahanadi Rivers. 
+Our group aims to provide a cost-effective, scalable, and accessible solution to analyze and remove trace contaminants from water. We are developing technology that keeps communities safe from detrimental trace contaminants in drinking water by empowering them with actionable data and affordable solutions. We collaborate with researchers from MIT, USA and University of Waterloo, Canada for translational research.
 
-{% include button.html url="/research/large-river-systems" text="Read More" color="#9db2ce" %}
+{% include button.html url="/research/translational-research" text="Read More" color="#9db2ce" %}

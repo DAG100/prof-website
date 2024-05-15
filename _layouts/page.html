@@ -3,7 +3,7 @@ layout: default
 format: post
 ---
 <div class="row t30">
-	<div class="medium-12 columns{% if page.sidebar == NULL %}end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
+	<div class="{% if page.sidebar == NULL %}medium-12 columns end{% endif %}{% if page.sidebar %} medium-8 columns{% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
 				{% if page.image.title %}
@@ -52,14 +52,15 @@ format: post
 
 	{% if page.sidebar == "left" %}
 	<div class="medium-4 columns medium-pull-8">
-		{% include _sidebar.html %}
+		{% include _sidebar.html text=page.sidebar_text %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 
 
 	{% if page.sidebar == "right" %}
 	<div class="medium-4 columns">
-		{% include _sidebar.html %}
+		{%if page.sidebar_text %}{% include _sidebar.html text=page.sidebar_text %}{% endif %}
+		{% if page.sidebar_img %}<img src="{{site.url}}{{site.baseurl}}/images/{{page.sidebar_img}}">{% endif %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 </div><!-- /.row -->
