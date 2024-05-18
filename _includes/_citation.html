@@ -1,0 +1,11 @@
+<li>
+<p style="margin-bottom: 0px"><em style="margin-right:10px">{{include.authors}}</em>"{{include.title}}"</p>
+<p style="margin-bottom: 0px"><em>{{include.journal}}</em></p>
+{% if include.doi %}
+<p style="margin-bottom: 0px"> DOI: <a href="https://doi.org/{{include.doi}}">https://doi.org/{{include.doi}}</a></p>
+<div style="height:100px;display:flex;gap:20px;padding:10px">
+<span style="margin-right:20px;display:inline;width:fit-content;" class="__dimensions_badge_embed__" data-doi="{{include.doi}}" data-style="small_circle" style="height:100px"></span>
+<span style="margin-right:20px;display:inline;width:fit-content;" class='altmetric-embed' data-badge-type='donut' data-doi="{{include.doi}}" style="height:100px"></span>
+</div>
+{% endif %}
+</li>

@@ -33,4 +33,5 @@
 		<li><a href="{{ site.urlimg }}{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ thumb_url }}" alt="{{ item.caption }}"></a></li>
 		{% endfor %}
 	</ul>
+	<p style="font-size:12pt;color:grey;">Click photos to enlarge.</p>
 </div>
