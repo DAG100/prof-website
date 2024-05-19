@@ -25,19 +25,22 @@ widget3:
   text: '<div style="font-size:100px;text-align:center;">461</div>'
 
 widget4:
-  title: 'Orcid Id'
-  url: '/publications/'
-  text: 'Insert Orcid ID here'
+  title: 'Orcid ID'
+  image: "orcid.png"
+  url: 'https://orcid.org/0000-0001-7302-2313'
+  text: '<div style="text-align:center">0000-0001-7302-2313</div>'
   buttontext: 'Visit Orcid'
 widget5:
-  title: 'Scopus Id'
-  url: '/publications/'
-  text: 'Insert Orcid ID here'
+  title: 'Scopus ID'
+  image: "scopus.png"
+  url: 'https://www.scopus.com/authid/detail.uri?authorId=55346514800'
+  text: '<div style="text-align:center">55346514800</div>'
   buttontext: 'Visit Scopus'
 widget6:
-  title: 'Google Scholar Id'
-  url: '/publications/'
-  text: 'Insert Orcid ID here'
+  title: 'Google Scholar'
+  image: "googlescholar.jpg"
+  url: 'https://scholar.google.com/citations?user=LXqfM3kAAAAJ&hl=en&oi=ao'
+  text: '<div style="text-align:center"><br /></div>'
   buttontext: 'Visit Google Scholar'
 
 #Contact, I reused the widgets here for convenience
