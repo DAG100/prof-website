@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 # Publications
 ## 2024
-<ul>
+<ol markdown="block" reversed>
 {% include _citation.html authors="Ansari, A., Sen, I.S., Sinha, R." title="(Under Review) Trends of water composition and discharge in the Ramganga River, Ganga Basin over the last forty years signal enhanced nitrate flux" journal="Journal of Hydrology" %}
 
 {% include _citation.html authors="Pradhan, S. *, Sen, I.S." title="(Under Review) Metamorphic CO2 fluxes offset the geological carbon sink in the Himalayan-Tibetan orogen" journal="Earth and Planetary Science Letters" %}
@@ -15,11 +15,9 @@ permalink: /publications/
 {% include _citation.html authors="Roy, N*, Sen I.S., Boral, S., Shukla T., Velu, V." title="(Under Review) Isotope hydrograph separation reveals rainfall on the glaciers will enhance ice meltwater discharge to the Himalayan rivers (2023)" journal="Water Resource Research" %}
 
 {% include _citation.html authors="Shaifullah*, Sen I.S." title="A four-component mixing model reveals an early onset of snow meltwater runoff in the headwaters of River Ganga" journal="Journal of Hydrology Vol. 628" doi="10.1016/j.jhydrol.2023.130473" %}
-</ul>
 
 ## 2023
 
-<ul>
 {%include _citation.html authors="Roy, N*, Sen I.S." title="CO2 consumption rates in the glacierized Himalayan headwaters: The importance of sulfuric and nitric acid-mediated chemical weathering reactions in geologic carbon cycle" journal="Geochemistry, Geophysics, Geosystems Vol. 24" doi="10.1029/2023GC010919"%}
 
 {%include _citation.html authors="Shukla, T.,** Sen, I.S." title="Microplastics in freshwater ecosystems of India: Current trends and future perspectives (2023)" journal="ACS Omega 2023" doi="10.1021/acsomega.3c01214" %}
@@ -33,8 +31,6 @@ permalink: /publications/
 {%include _citation.html authors="Shukla, S., ‡‡ Meshesha, T.W., Sen, I.S., Bol, R., Bogena, H., Wang, J." title="Assessing impacts of Land Use Land Cover (LULC) change on stream flow and runoff in Rurh Basin, Germany" journal="Sustainability Vol. 15" doi="10.3390/su15129811"  %}
 
 {%include _citation.html authors="Sen I.S., Nizam S., Ansari A.;Bowes M., Choudhary B., Glendell M., Ray S., Scott M., Miller C., Wilkie C., Sinha R" title="Geochemical evolution of dissolved trace elements in space and time in the Ramganga River, India" journal="Environmental Monitoring and Assessment Vol. 195" doi="10.1007/s10661-023-11665-0"  %}
-
-</ul>
 
 ## 2022
 
@@ -122,6 +118,8 @@ permalink: /publications/
 {%include _citation.html authors="Sen, I.S., Bizimis, M., Sen, G., Huang, S." title="A radiogenic Os Component in the Oceanic Lithosphere? Constraints from Hawaiian Pyroxenite Xenoliths" journal="Geochimica et Cosmochimica Acta Vol. 75" doi="10.1016/j.gca.2011.06.008" %}
 
 {%include _citation.html authors="Sen, I.S., Bizimis, M., Sen, G." title="Geochemistry of Sulfides in Hawaiian Garnet Pyroxenite Xenoliths: Implications for Highly Siderophile Elements in the Oceanic Mantle" journal="Chemical Geology Vol. 273" doi="10.1016/j.chemgeo.2010.02.021" %}
+
+</ol>
 
 # Patents
 

@@ -152,7 +152,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
     }
     
-    .fixed .top-bar,.dropdown {
+    .top-bar,.dropdown {
         background: $topbar-bg-opaque !important;
     }
 
@@ -525,7 +525,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
     // Top Bar styles intended for screen sizes above the breakpoint.
     @media #{$topbar-media-query} {
       .top-bar {
-        background: $topbar-bg;
+//         background: $topbar-bg;
         @include clearfix;
         overflow: visible;
 

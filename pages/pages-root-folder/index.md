@@ -10,19 +10,6 @@ header:
   title: "The Environmental And Low Temperature Geochemistry Lab"
   subtitle: "Studying fluid-mediated surficial processes with isotopic precision"
   caption: ""
-widget1:
-  title: 'Publications'
-  url: '/publications/'
-  text: '<div style="font-size:100px;text-align:center;">39</div>'
-widget2:
-  title: 'Patents'
-  url: '/publications/'
-  text: '<div style="font-size:100px;text-align:center;">3</div>'
-#  video: '<a href="#" data-reveal-id="videoModal"><img #src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-##responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
-widget3:
-  title: 'Citations'
-  url: '/publications/'
-  text: '<div style="font-size:100px;text-align:center;">461</div>'
 
 widget4:
   title: 'Orcid ID'
@@ -38,7 +25,7 @@ widget5:
   buttontext: 'Visit Scopus'
 widget6:
   title: 'Google Scholar'
-  image: "googlescholar.jpg"
+  image: "googlescholar.png"
   url: 'https://scholar.google.com/citations?user=LXqfM3kAAAAJ&hl=en&oi=ao'
   text: '<div style="text-align:center"><br /></div>'
   buttontext: 'Visit Google Scholar'
@@ -94,7 +81,7 @@ permalink: /index.html
 homepage: true
 ---
 <div class="row l15 r15">
-<h1 style="margin-top:100px;text-align:center">About Us</h1>
+<h1 style="margin-top:20px;text-align:center">About Us</h1>
 <div class="masthead-caption" style="text-align:left">
 Clean Environment is not a Luxury,
 But a Necessity for Everyone!
@@ -106,7 +93,7 @@ But a Necessity for Everyone!
 {% include button.html url="/research" text="Learn more" color="#d55" %}
 
 {% if page.widget1.image or page.widget1.video or page.widget1.title or page.widget2.image or page.widget2.video or page.widget2.title or page.widget3.image or page.widget3.video or page.widget3.title %}
-<div class="row t60">
+<div class="row t30">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -126,7 +113,7 @@ But a Necessity for Everyone!
 {% endif %}
 
 {% if page.widget7.image or page.widget7.video or page.widget7.title or page.widget8.image or page.widget8.video or page.widget8.title %}
-<div id="contact" class="row t60 l15 r15">
+<div id="contact" class="row t30 l15 r15">
   <h1 style="text-align:center">Contact Us</h1>
   {% if page.widget7.image or page.widget7.video or page.widget7.title %}
     {% include _frontpage-widget.html widget=page.widget7 %}
@@ -139,7 +126,7 @@ But a Necessity for Everyone!
 {% endif %}
 
 {% if page.widget4.image or page.widget4.video or page.widget4.title or page.widget5.image or page.widget5.video or page.widget5.title or page.widget6.image or page.widget6.video or page.widget6.title %}
-<div class="row t60 l15 r15">
+<div class="row t30 l15 r15">
     <h1 style="text-align:center">Academic Identity</h1>
     {% if page.widget4.image or page.widget4.video or page.widget4.title %}
         {% include _frontpage-widget.html widget=page.widget4 %}
