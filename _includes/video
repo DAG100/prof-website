@@ -1,0 +1,3 @@
+{% assign youtube = include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "youtube.com" | remove: "/watch?v=" | remove: "/embed/" | split: "&" | first %}
+
+<iframe width='970' height='546' src='https://www.youtube.com/embed/{{youtube}}' frameborder='0' allowfullscreen></iframe>

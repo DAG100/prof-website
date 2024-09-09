@@ -1,0 +1,1 @@
+<img src="{{site.urlimg}}{{include.url}}" {% if include.description %}alt="{{include.description}}"{% endif %}/>

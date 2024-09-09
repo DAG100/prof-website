@@ -1,0 +1,23 @@
+{% comment %}
+*
+*   First the include captures the url and image in a
+*   separate variable to make the code better readable.
+*
+*   These variables are widget_url and widget_image
+*
+{% endcomment %}
+
+{% capture widget_url %}{% if include.widget.url == NULL %}{% elsif include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}{% endcapture %}
+
+{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
+
+<div class="medium-4 columns frontpage-widget">
+	<h2 class="font-size-h3 t10" style="text-align:center">{{ include.title }}</h2>
+	{% if include.photo %}
+	<img src="images/{{ include.photo }}" alt="Photo of the {{include.title}}" style="display:block;width:200px;height:200px;border-radius:100%;object-fit:cover;margin:auto;"/>
+	{% endif %}
+	<p>
+	{{ include.text | newline_to_br }}
+	</p>
+	{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}" style="margin:auto;display:block;width:fit-content;">{% if include.widget.buttontext == NULL %}{{site.data.language.more }}{% else %}{{ include.widget.buttontext}}{% endif %}</a></p>{% endif %}
+</div>

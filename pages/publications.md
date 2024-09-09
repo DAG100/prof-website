@@ -6,118 +6,124 @@ header:
 permalink: /publications/
 ---
 # Publications
-## 2024
+
 <ol markdown="block" reversed>
-{% include _citation.html authors="Ansari, A., Sen, I.S., Sinha, R." title="(Under Review) Trends of water composition and discharge in the Ramganga River, Ganga Basin over the last forty years signal enhanced nitrate flux" journal="Journal of Hydrology" %}
 
-{% include _citation.html authors="Pradhan, S. *, Sen, I.S." title="(Under Review) Metamorphic CO2 fluxes offset the geological carbon sink in the Himalayan-Tibetan orogen" journal="Earth and Planetary Science Letters" %}
+## 2024
 
-{% include _citation.html authors="Roy, N*, Sen I.S., Boral, S., Shukla T., Velu, V." title="(Under Review) Isotope hydrograph separation reveals rainfall on the glaciers will enhance ice meltwater discharge to the Himalayan rivers (2023)" journal="Water Resource Research" %}
+{% include citation 
+authors="Ansari, A., Sen, I.S., Sinha, R."
+title="(Under Review) Trends of water composition and discharge in the Ramganga River, Ganga Basin over the last forty years signal enhanced nitrate flux"
+journal="Journal of Hydrology" %}
 
-{% include _citation.html authors="Shaifullah*, Sen I.S." title="A four-component mixing model reveals an early onset of snow meltwater runoff in the headwaters of River Ganga" journal="Journal of Hydrology Vol. 628" doi="10.1016/j.jhydrol.2023.130473" %}
+{% include citation authors="Pradhan, S. *, Sen, I.S." title="(Under Review) Metamorphic CO2 fluxes offset the geological carbon sink in the Himalayan-Tibetan orogen" journal="Earth and Planetary Science Letters" %}
+
+{% include citation authors="Roy, N. *, Sen I.S., Boral, S., Shukla T., Velu, V." title="(Under Review) Isotope hydrograph separation reveals rainfall on the glaciers will enhance ice meltwater discharge to the Himalayan rivers (2023)" journal="Water Resource Research" %}
+
+{% include citation authors="Shaifullah *, Sen I.S." title="A four-component mixing model reveals an early onset of snow meltwater runoff in the headwaters of River Ganga" journal="Journal of Hydrology Vol. 628" doi="10.1016/j.jhydrol.2023.130473" %}
 
 ## 2023
 
-{%include _citation.html authors="Roy, N*, Sen I.S." title="CO2 consumption rates in the glacierized Himalayan headwaters: The importance of sulfuric and nitric acid-mediated chemical weathering reactions in geologic carbon cycle" journal="Geochemistry, Geophysics, Geosystems Vol. 24" doi="10.1029/2023GC010919"%}
+{%include citation authors="Roy, N*, Sen I.S." title="CO2 consumption rates in the glacierized Himalayan headwaters: The importance of sulfuric and nitric acid-mediated chemical weathering reactions in geologic carbon cycle" journal="Geochemistry, Geophysics, Geosystems Vol. 24" doi="10.1029/2023GC010919"%}
 
-{%include _citation.html authors="Shukla, T.,** Sen, I.S." title="Microplastics in freshwater ecosystems of India: Current trends and future perspectives (2023)" journal="ACS Omega 2023" doi="10.1021/acsomega.3c01214" %}
+{%include citation authors="Shukla, T.,** Sen, I.S." title="Microplastics in freshwater ecosystems of India: Current trends and future perspectives (2023)" journal="ACS Omega 2023" doi="10.1021/acsomega.3c01214" %}
 
-{%include _citation.html authors="Neelavannan, K., ** Sen, I.S., Sinha, N., Thakur A. K., Misra, S." title="Microplastics in the Ganga-Brahmaputra delta: Sources and Pathways to the Sundarbans Biosphere Reserve-an UNESCO World Heritage Centre" journal="Environmental Advances Vol. 11" doi="10.1016/j.envadv.2023.100350" %}
+{%include citation authors="Neelavannan, K., ** Sen, I.S., Sinha, N., Thakur A. K., Misra, S." title="Microplastics in the Ganga-Brahmaputra delta: Sources and Pathways to the Sundarbans Biosphere Reserve-an UNESCO World Heritage Centre" journal="Environmental Advances Vol. 11" doi="10.1016/j.envadv.2023.100350" %}
 
-{%include _citation.html authors="Shukla, T, ** Sen, I.S.; Sundriyal S." title="Carbon emissions from emerging glacier-fed Himalayan lakes" journal="Global and Planetary Changes Vol. 225" doi="10.1016/j.gloplacha.2023.104134" %}
+{%include citation authors="Shukla, T, ** Sen, I.S.; Sundriyal S." title="Carbon emissions from emerging glacier-fed Himalayan lakes" journal="Global and Planetary Changes Vol. 225" doi="10.1016/j.gloplacha.2023.104134" %}
 
-{%include _citation.html authors="Cañedo-Argüelles, M., Brito, A.C., Sen, I.S., Roy, R." title="Editorial: Human Impacts on River Catchments and Coastal Ecosystems: A Meta-Ecosystem Perspective" journal="Frontiers in Marine Science Vol. 10" doi="10.3389/fmars.2023.1168296" %}
+{%include citation authors="Cañedo-Argüelles, M., Brito, A.C., Sen, I.S., Roy, R." title="Editorial: Human Impacts on River Catchments and Coastal Ecosystems: A Meta-Ecosystem Perspective" journal="Frontiers in Marine Science Vol. 10" doi="10.3389/fmars.2023.1168296" %}
 
-{%include _citation.html authors="Shukla, S., ‡‡ Meshesha, T.W., Sen, I.S., Bol, R., Bogena, H., Wang, J." title="Assessing impacts of Land Use Land Cover (LULC) change on stream flow and runoff in Rurh Basin, Germany" journal="Sustainability Vol. 15" doi="10.3390/su15129811"  %}
+{%include citation authors="Shukla, S., ‡‡ Meshesha, T.W., Sen, I.S., Bol, R., Bogena, H., Wang, J." title="Assessing impacts of Land Use Land Cover (LULC) change on stream flow and runoff in Rurh Basin, Germany" journal="Sustainability Vol. 15" doi="10.3390/su15129811"  %}
 
-{%include _citation.html authors="Sen I.S., Nizam S., Ansari A.;Bowes M., Choudhary B., Glendell M., Ray S., Scott M., Miller C., Wilkie C., Sinha R" title="Geochemical evolution of dissolved trace elements in space and time in the Ramganga River, India" journal="Environmental Monitoring and Assessment Vol. 195" doi="10.1007/s10661-023-11665-0"  %}
+{%include citation authors="Sen I.S., Nizam S., Ansari A.;Bowes M., Choudhary B., Glendell M., Ray S., Scott M., Miller C., Wilkie C., Sinha R" title="Geochemical evolution of dissolved trace elements in space and time in the Ramganga River, India" journal="Environmental Monitoring and Assessment Vol. 195" doi="10.1007/s10661-023-11665-0"  %}
 
 ## 2022
 
-{%include _citation.html authors="Neelavannan K., **Achyuthan H., Sen I.S., Krishnakumar S., Gopinath K., Dhanalakshmi R., Rajalakshmi P.R., Sajeev R." title="Distribution and characterization of plastic debris pollution along the Poompuhar Beach, Tamil Nadu, Southern India" journal="Marine Pollution Bulletin Vol. 175" doi="10.1016/j.marpolbul.2022.113337" %}
+{%include citation authors="Neelavannan K., **Achyuthan H., Sen I.S., Krishnakumar S., Gopinath K., Dhanalakshmi R., Rajalakshmi P.R., Sajeev R." title="Distribution and characterization of plastic debris pollution along the Poompuhar Beach, Tamil Nadu, Southern India" journal="Marine Pollution Bulletin Vol. 175" doi="10.1016/j.marpolbul.2022.113337" %}
 
-{%include _citation.html authors="Nizam, S., ** Acharya, T., ‡ Sen, I.S., Dutta, S. ,‡" title="Occurrence, Sources, Spatial Distribution of High Level of Fluoride and Associated Health Risks in Shallow Groundwater of Ganga Basin, India" journal="Environmental Geochemistry and Health, Jun 26." doi="10.1007/s10653-022-01319-4" %}
+{%include citation authors="Nizam, S., ** Acharya, T., ‡ Sen, I.S., Dutta, S. ,‡" title="Occurrence, Sources, Spatial Distribution of High Level of Fluoride and Associated Health Risks in Shallow Groundwater of Ganga Basin, India" journal="Environmental Geochemistry and Health, Jun 26." doi="10.1007/s10653-022-01319-4" %}
 
-{%include _citation.html authors="Nizam, S., ** Virk, H.S., Sen, I.S." title="High levels of fluoride in groundwater from Northern parts of Indo-Gangetic Plains reveals detrimental fluorosis health risks" journal="Environmental Advances Vol. 8" doi="10.1016/j.envadv.2022.100200" %}
+{%include citation authors="Nizam, S., ** Virk, H.S., Sen, I.S." title="High levels of fluoride in groundwater from Northern parts of Indo-Gangetic Plains reveals detrimental fluorosis health risks" journal="Environmental Advances Vol. 8" doi="10.1016/j.envadv.2022.100200" %}
 
-{%include _citation.html authors="Nizam S*., Dutta, S‡., Sen, I.S." title="Geogenic controls on the high levels of uranium in alluvial aquifers of the Ganga Basin" journal="Applied Geochemistry Vol. 143" %}
+{%include citation authors="Nizam S*., Dutta, S‡., Sen, I.S." title="Geogenic controls on the high levels of uranium in alluvial aquifers of the Ganga Basin" journal="Applied Geochemistry Vol. 143" %}
 
-{%include _citation.html authors="Neelavannan, S.**., Hussain, S.M., Sangode, S.J., Prakasam, M., Sen, I.S., Veerasingam, S., Tyagi, A., Kumar, P., Singh, P." title="A 51 Ka sedimentary sequence in a seamount basin, Eastern Arabian Sea: Records for palaeoceanographic and paleoclimatic conditions" journal="Journal of Asian Earth Sciences Vol. 226" doi="10.1016/j.jseaes.2022.105086" %}
+{%include citation authors="Neelavannan, S.**., Hussain, S.M., Sangode, S.J., Prakasam, M., Sen, I.S., Veerasingam, S., Tyagi, A., Kumar, P., Singh, P." title="A 51 Ka sedimentary sequence in a seamount basin, Eastern Arabian Sea: Records for palaeoceanographic and paleoclimatic conditions" journal="Journal of Asian Earth Sciences Vol. 226" doi="10.1016/j.jseaes.2022.105086" %}
 
-{%include _citation.html authors="Neelavannan, K.,** Sen, I.S., Lone, A.M., Gopinath, K." title="Microplastics in the high-altitude Himalayas: Assessment of microplastic contamination in freshwater lake sediments, Northwest Himalaya, India" journal="Chemosphere Vol. 290" doi="10.1016/j.chemosphere.2021.133354" %}
+{%include citation authors="Neelavannan, K.,** Sen, I.S., Lone, A.M., Gopinath, K." title="Microplastics in the high-altitude Himalayas: Assessment of microplastic contamination in freshwater lake sediments, Northwest Himalaya, India" journal="Chemosphere Vol. 290" doi="10.1016/j.chemosphere.2021.133354" %}
 
-{%include _citation.html authors="Nizam, S.,** Mitra, A., Shukla, S., Misra, S., Sen, I.S." title="Time-Series Record of Ambient Platinum Group Elements over a Remote Himalayan Station: Insights over the Baseline Estimate to Judge Future Changes" journal="Water, Air, and Soil Pollution Vol. 233" doi="10.1007/s11270-021-05478-5" %}
+{%include citation authors="Nizam, S.,** Mitra, A., Shukla, S., Misra, S., Sen, I.S." title="Time-Series Record of Ambient Platinum Group Elements over a Remote Himalayan Station: Insights over the Baseline Estimate to Judge Future Changes" journal="Water, Air, and Soil Pollution Vol. 233" doi="10.1007/s11270-021-05478-5" %}
 
 
 ## 2021
 
-{%include _citation.html authors="Shukla, T.,** Sen, I.S." title="Preparing for Floods on the Third Pole" journal="Science Vol. 372 " doi="10.1126/science.abh3558" %}
+{%include citation authors="Shukla, T.,** Sen, I.S." title="Preparing for Floods on the Third Pole" journal="Science Vol. 372 " doi="10.1126/science.abh3558" %}
 
-{%include _citation.html authors="Shukla, T.,** Sen, I.S., Boral, S.,* Sharma, S." title="A Time-Series Record during COVID-19 Lockdown Shows the High Resilience of Dissolved Heavy Metals in the Ganga River" journal="Environmental Science and Technology Letters Vol. 8" doi="10.1021/acs.estlett.0c00982" %}
+{%include citation authors="Shukla, T.,** Sen, I.S., Boral, S.,* Sharma, S." title="A Time-Series Record during COVID-19 Lockdown Shows the High Resilience of Dissolved Heavy Metals in the Ganga River" journal="Environmental Science and Technology Letters Vol. 8" doi="10.1021/acs.estlett.0c00982" %}
 
-{%include _citation.html authors="Nizam, S.,* Sen, I.S., Shukla, T.,** Selby, D." title="Melting of the Chhota Shigri Glacier, Western Himalaya, Insensitive to Anthropogenic Emission Residues: Insights from Geochemical Evidence" journal="Geophysical Research Letters Vol. 48" doi="10.1029/2021GL092801" %}
+{%include citation authors="Nizam, S.,* Sen, I.S., Shukla, T.,** Selby, D." title="Melting of the Chhota Shigri Glacier, Western Himalaya, Insensitive to Anthropogenic Emission Residues: Insights from Geochemical Evidence" journal="Geophysical Research Letters Vol. 48" doi="10.1029/2021GL092801" %}
 
-{%include _citation.html authors="Mitra, A.,* Sen, I.S., Pandey, S.K., Velu, V., Reisberg, L., Bizimis, M., Cloquet, C., Nizam, S.*" title="Lead Isotope Evidence for Enhanced Anthropogenic Particle Transport to the Himalayas during Summer Months" journal="Environmental Science and Technology Vol. 55" doi="10.1021/acs.est.1c03830" %}
+{%include citation authors="Mitra, A.,* Sen, I.S., Pandey, S.K., Velu, V., Reisberg, L., Bizimis, M., Cloquet, C., Nizam, S.*" title="Lead Isotope Evidence for Enhanced Anthropogenic Particle Transport to the Himalayas during Summer Months" journal="Environmental Science and Technology Vol. 55" doi="10.1021/acs.est.1c03830" %}
 
-{%include _citation.html authors="Boral, S.,* Peucker-Ehrenbrink, B., Hemingway, J.D., Sen, I.S., Galy, V., Fiske, G.J." title="Controls on Short-Term Dissolved 87Sr/86Sr Variations in Large Rivers: Evidence from the Ganga–Brahmaputra" journal="Earth and Planetary Science Letters Vol. 566" doi="10.1016/j.epsl.2021.116958" %}
+{%include citation authors="Boral, S.,* Peucker-Ehrenbrink, B., Hemingway, J.D., Sen, I.S., Galy, V., Fiske, G.J." title="Controls on Short-Term Dissolved 87Sr/86Sr Variations in Large Rivers: Evidence from the Ganga–Brahmaputra" journal="Earth and Planetary Science Letters Vol. 566" doi="10.1016/j.epsl.2021.116958" %}
 
-{%include _citation.html authors="Mitra, A.,* Sen, I.S., Walkner, C., Meisel, T.C." title="Simultaneous Determination of Platinum Group Elements and Rhenium Mass Fractions in Road Dust Samples using Isotope Dilution Inductively Coupled Plasma-Tandem Mass Spectrometry after Cation Exchange Separation" journal="Spectrochimica Acta - Part B Atomic Spectroscopy Vol. 177" doi="10.1016/j.sab.2020.106052" %}
+{%include citation authors="Mitra, A.,* Sen, I.S., Walkner, C., Meisel, T.C." title="Simultaneous Determination of Platinum Group Elements and Rhenium Mass Fractions in Road Dust Samples using Isotope Dilution Inductively Coupled Plasma-Tandem Mass Spectrometry after Cation Exchange Separation" journal="Spectrochimica Acta - Part B Atomic Spectroscopy Vol. 177" doi="10.1016/j.sab.2020.106052" %}
 
 
 ## 2020
 
-{%include _citation.html authors="Boral, S.,* Sen, I.S." title="Tracing 'Third Pole' Ice Meltwater Contribution to the Himalayan Rivers using Oxygen and Hydrogen Isotopes" journal="Geochemical Perspectives Letters Vol. 13" doi="10.7185/geochemlet.2013" %}
+{%include citation authors="Boral, S.,* Sen, I.S." title="Tracing 'Third Pole' Ice Meltwater Contribution to the Himalayan Rivers using Oxygen and Hydrogen Isotopes" journal="Geochemical Perspectives Letters Vol. 13" doi="10.7185/geochemlet.2013" %}
 
-{%include _citation.html authors="Nizam, S., * Sen, I.S., Vinoj, V., Galy, V., Selby, D., Azam, M.F., Pandey, S.K., Creaser, R.A., Agarwal, A.K., Singh, A.P., Bizimis, M." title="Biomass-Derived Provenance Dominates Glacial Surface Organic Carbon in the Western Himalaya" journal="Environmental Science and Technology Vol. 54" doi="10.1021/acs.est.0c02710" %}
+{%include citation authors="Nizam, S., * Sen, I.S., Vinoj, V., Galy, V., Selby, D., Azam, M.F., Pandey, S.K., Creaser, R.A., Agarwal, A.K., Singh, A.P., Bizimis, M." title="Biomass-Derived Provenance Dominates Glacial Surface Organic Carbon in the Western Himalaya" journal="Environmental Science and Technology Vol. 54" doi="10.1021/acs.est.0c02710" %}
 
-{%include _citation.html authors="Shukla, T.,** Sundriyal, S., Sen, I.S." title="Contemporary Inorganic Carbon Fluxes from Rapidly Changing Glacierized Watersheds of the Himalaya" journal="Journal of Hydrology Vol. 587" doi="10.1016/j.jhydrol.2020.124972" %}
+{%include citation authors="Shukla, T.,** Sundriyal, S., Sen, I.S." title="Contemporary Inorganic Carbon Fluxes from Rapidly Changing Glacierized Watersheds of the Himalaya" journal="Journal of Hydrology Vol. 587" doi="10.1016/j.jhydrol.2020.124972" %}
 
-{%include _citation.html authors="Boral, S.,* Sen, I.S., Tripathi, A., Sharma, B., Dhar, S." title="Tracking Dissolved Trace and Heavy Metals in the Ganga River from Source to Sink: A Baseline to Judge Future Changes" journal="Geochemistry, Geophysics, Geosystems Vol. 21" doi="10.1029/2020GC009203" %}
+{%include citation authors="Boral, S.,* Sen, I.S., Tripathi, A., Sharma, B., Dhar, S." title="Tracking Dissolved Trace and Heavy Metals in the Ganga River from Source to Sink: A Baseline to Judge Future Changes" journal="Geochemistry, Geophysics, Geosystems Vol. 21" doi="10.1029/2020GC009203" %}
 
 
 ## 2019
 
-{%include _citation.html authors="Boral, S.,* Sen, I.S., Ghosal, D., Peucker-Ehrenbrink, B., Hemingway, J.D." title="Stable Water Isotope Modeling Reveals Spatio-Temporal Variability of Glacier Meltwater Contributions to Ganges River headwaters" journal="Journal of Hydrology Vol. 577" doi="10.1016/j.jhydrol.2019.123983" %}
+{%include citation authors="Boral, S.,* Sen, I.S., Ghosal, D., Peucker-Ehrenbrink, B., Hemingway, J.D." title="Stable Water Isotope Modeling Reveals Spatio-Temporal Variability of Glacier Meltwater Contributions to Ganges River headwaters" journal="Journal of Hydrology Vol. 577" doi="10.1016/j.jhydrol.2019.123983" %}
 
-{%include _citation.html authors="Hemingway, J.D., Spencer, R.G.M., Podgorski, D.C., Zito, P., Sen, I.S., Galy, V.V." title="Glacier Meltwater and Monsoon Precipitation Drive Upper Ganges Basin Dissolved Organic Matter Composition" journal="Geochimica et Cosmochimica Acta Vol. 244" doi="10.1016/j.gca.2018.10.012" %}
+{%include citation authors="Hemingway, J.D., Spencer, R.G.M., Podgorski, D.C., Zito, P., Sen, I.S., Galy, V.V." title="Glacier Meltwater and Monsoon Precipitation Drive Upper Ganges Basin Dissolved Organic Matter Composition" journal="Geochimica et Cosmochimica Acta Vol. 244" doi="10.1016/j.gca.2018.10.012" %}
 
-{%include _citation.html authors="Wu, F., Owens, J.D., Huang, T., Sarafian, A., Huang, K.-F., Sen, I.S., Horner, T.J., Blusztajn, J., Morton, P., Nielsen, S.G." title="Vanadium isotope composition of seawater" journal="Geochimica et Cosmochimica Acta Vol. 244" doi="10.1016/j.gca.2018.10.010" %}
+{%include citation authors="Wu, F., Owens, J.D., Huang, T., Sarafian, A., Huang, K.-F., Sen, I.S., Horner, T.J., Blusztajn, J., Morton, P., Nielsen, S.G." title="Vanadium isotope composition of seawater" journal="Geochimica et Cosmochimica Acta Vol. 244" doi="10.1016/j.gca.2018.10.010" %}
 
 
 ## 2018
 
-{%include _citation.html authors="Sen, I.S., Boral, S.,* Ranjan, S.,‡ Tandon, S.K." title="Small but Important: The Role of Small Floodplain Tributaries to River Nutrient Budgets" journal="ACS Earth and Space Chemistry Vol. 2" doi="10.1021/acsearthspacechem.7b00112" %}
+{%include citation authors="Sen, I.S., Boral, S.,* Ranjan, S.,‡ Tandon, S.K." title="Small but Important: The Role of Small Floodplain Tributaries to River Nutrient Budgets" journal="ACS Earth and Space Chemistry Vol. 2" doi="10.1021/acsearthspacechem.7b00112" %}
 
-{%include _citation.html authors="Nizam, S.,‡ Sen, I.S." title="Effect of Southwest Monsoon Withdrawal on Mass Loading and Chemical Characteristics of Aerosols in an Urban City over the Indo-Gangetic Basin" journal="ACS Earth and Space Chemistry Vol. 2" doi="10.1021/acsearthspacechem.7b00140" %}
+{%include citation authors="Nizam, S.,‡ Sen, I.S." title="Effect of Southwest Monsoon Withdrawal on Mass Loading and Chemical Characteristics of Aerosols in an Urban City over the Indo-Gangetic Basin" journal="ACS Earth and Space Chemistry Vol. 2" doi="10.1021/acsearthspacechem.7b00140" %}
 
 
 ## 2017
 
-{%include _citation.html authors="Mitra, A.,* Sen, I.S." title="Anthrobiogeochemical Platinum, Palladium and Rhodium Cycles of Earth: Emerging Environmental Contamination" journal="Geochimica et Cosmochimica Acta Vol. 216" doi="10.1016/j.gca.2017.08.025" %}
+{%include citation authors="Mitra, A.,* Sen, I.S." title="Anthrobiogeochemical Platinum, Palladium and Rhodium Cycles of Earth: Emerging Environmental Contamination" journal="Geochimica et Cosmochimica Acta Vol. 216" doi="10.1016/j.gca.2017.08.025" %}
 
 
 ## 2016
 
-{%include _citation.html authors="Sen, G., Hames, W.E., Paul, D.K., Biswas, S.K., Ray, A., Sen, I.S." title="Pre-Deccan and Deccan Magmatism in Kutch, India: Implications of New 40Ar/39Ar Ages of Intrusions" journal="Journal of Geological Society of India Vol. 6" doi="10.17491/cgsi/2016/105422" %}
+{%include citation authors="Sen, G., Hames, W.E., Paul, D.K., Biswas, S.K., Ray, A., Sen, I.S." title="Pre-Deccan and Deccan Magmatism in Kutch, India: Implications of New 40Ar/39Ar Ages of Intrusions" journal="Journal of Geological Society of India Vol. 6" doi="10.17491/cgsi/2016/105422" %}
 
-{%include _citation.html authors="Sen, I.S., Bizimis, M., Tripathi, S.N., Paul, D." title="Lead Isotopic Fingerprinting of Aerosols to Characterize the Sources of Atmospheric Lead in an Industrial City of India" journal="Atmospheric Environment Vol. 129" doi="10.1016/j.atmosenv.2016.01.005" %}
+{%include citation authors="Sen, I.S., Bizimis, M., Tripathi, S.N., Paul, D." title="Lead Isotopic Fingerprinting of Aerosols to Characterize the Sources of Atmospheric Lead in an Industrial City of India" journal="Atmospheric Environment Vol. 129" doi="10.1016/j.atmosenv.2016.01.005" %}
 
-{%include _citation.html authors="Sen, I.S., Mitra, A.,* Peucker-Ehrenbrink, B., Rothenberg, S.E., Tripathi, S.N., Bizimis, M." title="Emerging airborne contaminants in India: Platinum Group Elements from Catalytic Converters in Motor Vehicles" journal="Applied Geochemistry Vol. 75" doi="10.1016/j.apgeochem.2016.10.006" %}
+{%include citation authors="Sen, I.S., Mitra, A.,* Peucker-Ehrenbrink, B., Rothenberg, S.E., Tripathi, S.N., Bizimis, M." title="Emerging airborne contaminants in India: Platinum Group Elements from Catalytic Converters in Motor Vehicles" journal="Applied Geochemistry Vol. 75" doi="10.1016/j.apgeochem.2016.10.006" %}
 
 
 ## 2015—2010
 
-{%include _citation.html authors="Sen, I.S., Peucker-Ehrenbrink, B." title="Determination of Osmium Concentrations and 187Os/188Os of Crude Oils and Source Rocks by Coupling High-Pressure, High-Temperature Digestion with Sparging OsO4 into a Multicollector Inductively Coupled Plasma Mass Spectrometer" journal="Analytical Chemistry Vol. 86" doi="10.1021/ac403413y" %}
+{%include citation authors="Sen, I.S., Peucker-Ehrenbrink, B." title="Determination of Osmium Concentrations and 187Os/188Os of Crude Oils and Source Rocks by Coupling High-Pressure, High-Temperature Digestion with Sparging OsO4 into a Multicollector Inductively Coupled Plasma Mass Spectrometer" journal="Analytical Chemistry Vol. 86" doi="10.1021/ac403413y" %}
 
-{%include _citation.html authors="Sen, I.S." title="Platinum Group Element Pollution is a Growing Concern in Countries with Developing Economy" journal="Environmental Science and Technology Vol. 47" doi="10.1021/es404890e" %}
+{%include citation authors="Sen, I.S." title="Platinum Group Element Pollution is a Growing Concern in Countries with Developing Economy" journal="Environmental Science and Technology Vol. 47" doi="10.1021/es404890e" %}
 
-{%include _citation.html authors="Sen, I.S., Peucker-Ehrenbrink, B., Geboy, N." title="Complex Anthropogenic Sources of Platinum Group Elements in Aerosols on Cape Cod, USA" journal="Environmental Science and Technology Vol. 47" doi="10.1021/es4016348" %}
+{%include citation authors="Sen, I.S., Peucker-Ehrenbrink, B., Geboy, N." title="Complex Anthropogenic Sources of Platinum Group Elements in Aerosols on Cape Cod, USA" journal="Environmental Science and Technology Vol. 47" doi="10.1021/es4016348" %}
 
-{%include _citation.html authors="Sen, I.S., Peucker-Ehrenbrink, B." title="Anthropogenic Disturbance of Element Cycles at the Earth's Surface" journal="Environmental Science and Technology Vol. 46" doi="10.1021/es301261x" %}
+{%include citation authors="Sen, I.S., Peucker-Ehrenbrink, B." title="Anthropogenic Disturbance of Element Cycles at the Earth's Surface" journal="Environmental Science and Technology Vol. 46" doi="10.1021/es301261x" %}
 
-{%include _citation.html authors="Sen, I.S., Bizimis, M., Sen, G., Huang, S." title="A radiogenic Os Component in the Oceanic Lithosphere? Constraints from Hawaiian Pyroxenite Xenoliths" journal="Geochimica et Cosmochimica Acta Vol. 75" doi="10.1016/j.gca.2011.06.008" %}
+{%include citation authors="Sen, I.S., Bizimis, M., Sen, G., Huang, S." title="A radiogenic Os Component in the Oceanic Lithosphere? Constraints from Hawaiian Pyroxenite Xenoliths" journal="Geochimica et Cosmochimica Acta Vol. 75" doi="10.1016/j.gca.2011.06.008" %}
 
-{%include _citation.html authors="Sen, I.S., Bizimis, M., Sen, G." title="Geochemistry of Sulfides in Hawaiian Garnet Pyroxenite Xenoliths: Implications for Highly Siderophile Elements in the Oceanic Mantle" journal="Chemical Geology Vol. 273" doi="10.1016/j.chemgeo.2010.02.021" %}
+{%include citation authors="Sen, I.S., Bizimis, M., Sen, G." title="Geochemistry of Sulfides in Hawaiian Garnet Pyroxenite Xenoliths: Implications for Highly Siderophile Elements in the Oceanic Mantle" journal="Chemical Geology Vol. 273" doi="10.1016/j.chemgeo.2010.02.021" %}
 
 </ol>
 

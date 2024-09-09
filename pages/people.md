@@ -5,10 +5,14 @@ header:
   title: "People"
 permalink: /people/
 ---
-<div style="display:flex;flex-direction:column;align-items:center;" markdown="1">
+<!-- <div style="display:flex;flex-direction:column;align-items:center;" markdown="1"> -->
+<div class="flexible" style="display:flex;justify-content:space-evenly;align-items:start;flex-wrap:wrap;gap:20px" markdown="1">
+
+
+
 ## Principal Investigator
 
-{% include profile.html 
+{% include profile 
 img="IndraSen.jpeg" 
 alt="Dr. Indra Sen" 
 size="250"
@@ -18,171 +22,156 @@ data="" %}
 ### Associate Professor
 
 |-|-|
-|06.2021-present|Associate Editor, Geophysical Research Letters, published by American Geophysical Union|
-|01.2021-present|Associate Editor, Vadose Zone Journal, published by Soil Science Society of America, USA|
-|01.2021-present|Editorial Advisory Board, Environmental Science and Technology, published by American Chemical Society|
-|12.2020-present|Associate Professor, Indian Institute of Technology-Kanpur, India|
-|06.2018-present|Research Affiliate, School of the Earth Ocean and Environment, University of South Carolina, USA|
-|11.2016-present|Associated Faculty, Centre for Environmental Science and Engineering, Indian Institute of Technology Kanpur, India|
-|06.2013-present|Long-Term Guest Investigator, Woods Hole Oceanographic Institution, USA|
+|06-2021 - present|Associate Editor, Geophysical Research Letters, published by American Geophysical Union|
+|01-2021 - present|Associate Editor, Vadose Zone Journal, published by Soil Science Society of America, USA|
+|01-2021 - present|Editorial Advisory Board, Environmental Science and Technology, published by American Chemical Society|
+|12-2020 - present|Associate Professor, Indian Institute of Technology-Kanpur, India|
+|06-2018 - present|Research Affiliate, School of the Earth Ocean and Environment, University of South Carolina, USA|
+|11-2016 - present|Associated Faculty, Centre for Environmental Science and Engineering, Indian Institute of Technology Kanpur, India|
+|06-2013 - present|Long-Term Guest Investigator, Woods Hole Oceanographic Institution, USA|
 
 ## Post-Doctoral Associates
 
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-12 small-12 columns">
-{% include profile.html
-img="RichaChaturvedi.jpg"
-alt="Dr. Richa Chaturvedi"
-size="220"
-name="Dr. Richa Chaturvedi"
-data="Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter<br />
-<a href='https://scholar.google.com/citations?user=KgPlHD0AAAAJ&hl=en'>Google Scholar</a>"
-%}
-</div>
-</div>
-
 ## Ph.D Scholars
 
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-6 small-6 columns">
-{% include profile.html
+{% include profile
 img="SamyakPradhan.jpg"
 alt="Samyak Pradhan"
 size="220"
 name="Samyak Pradhan"
 data="[please provide details]"
 %}
-</div>
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="SubhamDutta.jpg"
 alt="Subham Dutta"
 size="220"
 name="Subham Dutta"
 data="[please provide details]"
 %}
-</div>
-</div>
 
 ## Staff Members
 
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-6 small-6 columns">
-{% include profile.html
+{% include profile
 img="deepu.png"
 alt="Deepu Sharma"
 size="220"
 name="Deepu Sharma"
 data="Lab Assistant"
 %}
-</div>
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="aditya.png"
 alt="Aditya Tripathi"
 size="220"
 name="Aditya Tripathi"
 data="Lab Manager"
 %}
-</div>
-</div>
 
 ## Former Lab Members
 
 ### Post-Doctoral Associates
 
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-6 small-6 columns">
-{% include profile.html
+{% include profile
+img="RichaChaturvedi.jpg"
+alt="Dr. Richa Chaturvedi"
+size="220"
+name="Dr. Richa Chaturvedi"
+data="Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter
+(Google Scholar)[https://scholar.google.com/citations?user=KgPlHD0AAAAJ&hl=en]"
+%}
+
+{% include profile
 img="Neelavannan.jpg"
 alt="Dr. Neelavannan K."
 size="220"
 name="Dr. Neelavannan K."
-data="Postdoctoral Research Fellow, KAUST, Saudi Arabia<br />Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter<br />Member 2021-2023"
+data="Postdoctoral Research Fellow, KAUST, Saudi Arabia
+Ph.D., 2019; University of Madras, Marine Geochemistry, Marine Geology, Microplastics, and Marine litter
+Member 2021-2023"
 %}
-</div>
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="TanujShukla.jpg"
 alt="Dr. Tanuj Shukla"
 size="220"
 name="Dr. Tanuj Shukla"
-data="Associate Professor Research, Northwest Institute of Eco-Environment and Resources, Chinese Academy of Science, Lanzhou, China<br />Ph.D. 2018; Wadia Institute of Himalayan Geology, Glaciology, Hydro-geochemistry and Glacial-Climate linkages<br />Member 2019-2022"
+data="Associate Professor Research, Northwest Institute of Eco-Environment and Resources, Chinese Academy of Science, Lanzhou, China
+Ph.D. 2018; Wadia Institute of Himalayan Geology, Glaciology, Hydro-geochemistry and Glacial-Climate linkages
+Member 2019-2022"
 %}
-</div>
-</div>
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="MayuriPandey.jpg"
 alt="Dr. Mayuri Pandey"
 size="220"
 name="Dr. Mayuri Pandey"
-data="Assistant Professor in Banaras Hindu University, India<br />Member 2012-2017"
+data="Assistant Professor in Banaras Hindu University, India
+Member 2012-2017"
 %}
-</div>
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="JuzerShaik.jpg"
 alt="Dr. Juzer Shaik"
 size="220"
 name="Dr. Juzer Shaik"
-data="Postdoctoral Fellow, University of Minnesota, USA<br />Member 2022-2023"
+data="Postdoctoral Fellow, University of Minnesota, USA
+Member 2022-2023"
 %}
-</div>
-</div>
 
 ### Ph.D Scholars
 
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-4 small-4 columns">
-{% include profile.html
+{% include profile
 img="NitaRoy.jpg"
 alt="Nita Roy"
 size="220"
 name="Dr. Nita Roy"
-data="Dissertation “Understanding monsoon controls on glacier melting, chemical weathering, and carbon cycle in the Himalayas”<br />Postdoctoral Fellow with Prof. Christoff Andermann, University Rennes, CNRS, Géosciences Rennes, France<br />M.Sc. 2018; Jadavpur University, Glacier meltwater geochemistry<br />Member 2018-2024"
+data="Dissertation “Understanding monsoon controls on glacier melting, chemical weathering, and carbon cycle in the Himalayas”
+Postdoctoral Fellow with Prof. Christoff Andermann, University Rennes, CNRS, Géosciences Rennes, France
+M.Sc. 2018; Jadavpur University, Glacier meltwater geochemistry
+Member 2018-2024"
 %}
-</div>
-<div class="large-4 small-4 columns">
-{% include profile.html
+
+{% include profile
 img="Shaifullah.JPG"
 alt="Dr. Shaifullah"
 size="220"
 name="Dr. Shaifullah"
-data="Dissertation “A High-resolution Time Series River Chemistry Data from the Upper Ganga Basin: Temporal dynamics of Hydrogeochemical Processes”<br />M.Sc. 2017; Delhi University, Glacier River Intraction<br />Member 2017-2024"
+data="Dissertation “A High-resolution Time Series River Chemistry Data from the Upper Ganga Basin: Temporal dynamics of Hydrogeochemical Processes”
+M.Sc. 2017; Delhi University, Glacier River Intraction
+Member 2017-2024"
 %}
-</div>
-<div class="large-4 small-4 columns">
-{% include profile.html
+
+{% include profile
 img="SoumitaBoral.jpg"
 alt="Dr. Soumita Boral"
 size="220"
 name="Dr. Soumita Boral"
-data="Dissertation “Isotopes and geochemical modelling to trace water sources and chemical dynamics of Himalayan Rivers from source to sink”<br />DST INSPIRE Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Sciences, Bengaluru, India<br />Member 2015-2021"
+data="Dissertation “Isotopes and geochemical modelling to trace water sources and chemical dynamics of Himalayan Rivers from source to sink”
+DST INSPIRE Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Sciences, Bengaluru, India
+Member 2015-2021"
 %}
-</div>
-</div>
-<div class="row" style="width:min(130%,90vw)">
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="ArijeetMitra.jpg"
 alt="Dr. Arijeet Mitra"
 size="220"
 name="Dr. Arijeet Mitra"
-data="Dissertation “Tracing the cycling of PGE and Pb isotopes through the Earth's surface”<br />DST INSPIRE Faculty, Postdoctoral Research Scientist in the Novel Isotopes in Climate, Environment and Rocks (NICER Lab), Columbia University, USA<br />Member 2015-2021"
+data="Dissertation “Tracing the cycling of PGE and Pb isotopes through the Earth's surface”
+DST INSPIRE Faculty, Postdoctoral Research Scientist in the Novel Isotopes in Climate, Environment and Rocks (NICER Lab), Columbia University, USA
+Member 2015-2021"
 %}
-</div>
-<div class="large-6 small-6 columns">
-{% include profile.html
+
+{% include profile
 img="SarwarNizam.jpg"
 alt="Dr. Sarwar Nizam"
 size="220"
 name="Dr. Sarwar Nizam"
-data="Dissertation “Surface impurities in the Himalayan glaciers: Its sources, pathways, and spatial variation”<br />International Climate Protection Fellow, Humboldt Foundation, GFZ German Research Centre for Geosciences<br />Ph.D. 2021; IIT Kanpur, Himalayan Cryosphere<br />Member 2016-2021"
+data="Dissertation “Surface impurities in the Himalayan glaciers: Its sources, pathways, and spatial variation”
+International Climate Protection Fellow, Humboldt Foundation, GFZ German Research Centre for Geosciences
+Ph.D. 2021; IIT Kanpur, Himalayan Cryosphere
+Member 2016-2021"
 %}
-</div>
-</div>
 
 ### MTech. Students
 

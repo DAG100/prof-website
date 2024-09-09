@@ -23,22 +23,22 @@
 /* Adjustments: Video Layout
 ------------------------------------------------------------------- */
 
-body.video,
-body.video #masthead-no-image-header { background: #000; }
-body.video #masthead-no-image-header { margin-bottom: 60px; }
-body.video h1,
-body.video h2,
-body.video h3,
-body.video h4,
-body.video h5,
-body.video h6,
-body.video p,
-body.video a,
-body.video blockquote:before,
-body.video blockquote:after,
-body.video cite a, { color: #fff; }
-body.video cite a:visited, { color: #fff; }
-body.video cite { color: #fff; }
+// body.video,
+// body.video #masthead-no-image-header { background: #000; }
+// body.video #masthead-no-image-header { margin-bottom: 60px; }
+// body.video h1,
+// body.video h2,
+// body.video h3,
+// body.video h4,
+// body.video h5,
+// body.video h6,
+// body.video p,
+// body.video a,
+// body.video blockquote:before,
+// body.video blockquote:after,
+// body.video cite a, { color: #fff; }
+// body.video cite a:visited, { color: #fff; }
+// body.video cite { color: #fff; }
 
 
 
@@ -75,8 +75,8 @@ body.video cite { color: #fff; }
     background-color: $primary-color;
 }
 #masthead-with-text {
-    text-align: left;
-    font-size: rem-calc(60);
+    text-align: center;
+    font-size: rem-calc(45);
     font-family: $header-font-family;
     color: #fff;
     // text-transform: uppercase;
